@@ -1,7 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"github.com/sho7noka/RepunKamuy/src"
+)
 
 func main() {
-	fmt.Printf("Hello World!\n")
+	tui.New().Run()
 }
